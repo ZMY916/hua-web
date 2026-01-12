@@ -1,0 +1,57 @@
+#water-level-chart {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 20px;
+  background-color: rgba(6, 30, 93, 0.5);
+  border-top: 2px solid rgba(1, 153, 209, 0.5);
+
+  .water-level-chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .water-level-chart-details {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 15%;
+    font-size: 17px;
+
+    span {
+      margin: 0 5px;
+      margin-bottom: -5px;
+      color: #58a1ff;
+      font-weight: bold;
+      font-size: 35px;
+    }
+  }
+
+  .chart-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dv-water-pond-level {
+    width: 200px;
+    max-width: 90%;
+    height: 200px;
+    border: 10px solid #19c3eb;
+    border-radius: 50%;
+
+    ellipse {
+      stroke: transparent !important;
+    }
+
+    text {
+      font-size: 40px;
+    }
+  }
+}

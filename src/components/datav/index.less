@@ -1,0 +1,50 @@
+#data-view {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #030409;
+
+  #dv-full-screen-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/bg.png");
+    background-size: 100% 100%;
+    box-shadow: 0 0 3px blue;
+  }
+
+  .main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .block-left-right-content {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    .left-chart {
+      flex: 1;
+      box-sizing: border-box;
+      width: 50%;
+      padding-left: 20px;
+      background-image: url("./img/kd.png");
+      background-size: 100% 100%;
+    }
+  }
+
+  .block-top-bottom-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+
+  .block-top-content {
+    display: flex;
+    flex-grow: 0;
+    box-sizing: border-box;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}
